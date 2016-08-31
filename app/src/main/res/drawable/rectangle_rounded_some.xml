@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <padding android:bottom="@dimen/fiveDP" android:left="@dimen/fiveDP" android:right="@dimen/fiveDP" android:top="@dimen/fiveDP" />
+            <solid android:color="@color/blue_lite" />
+            <stroke android:width="@dimen/threeDP" android:color="@color/blue_lite" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/fiveDP" android:left="@dimen/fiveDP" android:right="@dimen/fiveDP" android:top="@dimen/fiveDP" />
+            <gradient android:angle="90" android:endColor="@color/white" android:startColor="@color/white_eleele" android:type="linear" />
+            <stroke android:width="@dimen/threeDP" android:color="@color/button_blue" />
+        </shape>
+    </item>
+</selector>

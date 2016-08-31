@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Control Buyers Order</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_enter">Вход</string>
+    <string name="str_info">О программе</string>
+    <string name="str_config">Настройки</string>
+    <string name="str_exit">Выход</string>
+    <string name="action_exit">Выход</string>
+    <string name="action_info">О программе</string>
+    <string name="info_test">Добрый день.  \n
+                            Что тут сказать? \n
+                            Будем надеяться что-то да напишу
+    </string>
+    <string name="add_new_client">Добавить нового клиента</string>
+    <string name="new_order">Новый заказ</string>
+    <string name="order_list">Список заказов</string>
+    <string name="client_list">Список клиентов</string>
+    <string name="obmen">Запрос данных</string>
+    <string name="licence">Активация программы</string>
+    <string name="refresh">Обновить</string>
+    <string name="name_org">Наименование</string>
+    <string name="ur_adres">Юр. адрес</string>
+    <string name="fact_adres">Факт. адрес</string>
+    <string name="tel_faks">Телефон/факс</string>
+    <string name="inn_kpp">ИНН/КПП</string>
+    <string name="r_schet">Расчетный счет</string>
+    <string name="bank_org">Банк</string>
+    <string name="kor_schet">Кор. счет</string>
+    <string name="bik">БИК</string>
+    <string name="okved">ОКВЭД</string>
+    <string name="okpo">ОКПО</string>
+    <string name="ogrn">ОГРН</string>
+    <string name="okato">ОКАТО</string>
+    <string name="rukovod_org">Руководитель</string>
+    <string name="doljnost">Должность</string>
+    <string name="fio">ФИО</string>
+    <string name="email">e-mail</string>
+    <string name="save">Сохранить</string>
+    <string name="licence_my">     Данная программа в разработке \n
+        Как что будет известно \n
+        Здесь появится информация
+    </string>
+    <string name="action_back">Назад</string>
+    <string name="toast_name_client">Клиент:</string>
+    <string name="date_of_otgruzki">Дата отгрузки: </string>
+    <string name="date_of_dostavki">Дата доставки: </string>
+    <string name="dolg">Долг: </string>
+    <string name="zero">0</string>
+    <string name="otsrochka">Отсрочка долга: </string>
+    <string name="summa_order">Сумма заказа: </string>
+
+    <string-array name="myOrg">
+        <item>ООО "Шило"</item>
+        <item>ОАО "Мыло"</item>
+        <item>ЗАО "Ваше"</item>
+        <item>ЗАО "Наше"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/theme_black"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="@dimen/zeroDP"
+            android:layout_weight="@integer/weight1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red_text"
+            android:id="@+id/order_number_tv" />
+
+        <TextView
+            android:layout_width="@dimen/zeroDP"
+            android:layout_weight="@integer/weight1"
+            android:textColor="@color/red_text"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_order_tv" />
+
+        <TextView
+            android:layout_width="@dimen/zeroDP"
+            android:layout_weight="@integer/weight2"
+            android:textColor="@color/red_text"
+            android:layout_height="wrap_content"
+            android:id="@+id/client_org_tv" />
+
+        <TextView
+            android:layout_width="@dimen/zeroDP"
+            android:layout_weight="@integer/weight2"
+            android:textColor="@color/red_text"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_org_order_tv" />
+
+        <TextView
+            android:layout_width="@dimen/zeroDP"
+            android:layout_weight="@integer/weight2"
+            android:textColor="@color/red_text"
+            android:layout_height="wrap_content"
+            android:id="@+id/summ_order_tv" />
+
+        <TextView
+            android:layout_width="@dimen/zeroDP"
+            android:textColor="@color/red_text"
+            android:layout_weight="@integer/weight1"
+            android:layout_height="wrap_content"
+            android:id="@+id/status_order_tv" />
+    </LinearLayout>

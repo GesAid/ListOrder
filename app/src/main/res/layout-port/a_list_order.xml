@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme_black"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="@dimen/zeroDP"
+            android:layout_weight="@integer/weight1"
+            android:layout_height="wrap_content"
+            android:text="№ Заказа"
+            android:textColor="@color/red_text"
+            android:id="@+id/order_number_tv_m" />
+
+        <TextView
+            android:layout_width="@dimen/zeroDP"
+            android:layout_weight="@integer/weight1"
+            android:textColor="@color/red_text"
+            android:layout_height="wrap_content"
+            android:text="Дата заказа"
+            android:id="@+id/date_order_tv_m" />
+
+        <TextView
+            android:text="Контрагент"
+            android:layout_width="@dimen/zeroDP"
+            android:textColor="@color/red_text"
+            android:layout_weight="@integer/weight2"
+            android:layout_height="wrap_content"
+            android:id="@+id/client_org_tv_m" />
+
+        <TextView
+            android:text="Организация"
+            android:layout_width="@dimen/zeroDP"
+            android:textColor="@color/red_text"
+            android:layout_weight="@integer/weight2"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_org_order_tv_m" />
+
+        <TextView
+            android:text="Сумма заказа"
+            android:layout_width="@dimen/zeroDP"
+            android:layout_weight="@integer/weight2"
+            android:textColor="@color/red_text"
+            android:layout_height="wrap_content"
+            android:id="@+id/summ_order_tv_m" />
+
+        <TextView
+            android:text="Статус"
+            android:layout_width="@dimen/zeroDP"
+            android:textColor="@color/red_text"
+            android:layout_weight="@integer/weight1"
+            android:layout_height="wrap_content"
+            android:id="@+id/status_order_tv_m" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view_order" />
+</LinearLayout>

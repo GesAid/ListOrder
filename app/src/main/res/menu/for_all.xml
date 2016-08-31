@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="this"
+
+    >
+
+    <item
+        android:id="@+id/action_info"
+        android:background="@drawable/rectangle_rounded_some"
+        android:textColor="@color/button_blue"
+        android:title="@string/action_info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_back"
+        android:background="@drawable/rectangle_rounded_some"
+        android:textColor="@color/button_blue"
+        android:title="@string/action_back"
+        app:showAsAction="never" />
+
+</menu>

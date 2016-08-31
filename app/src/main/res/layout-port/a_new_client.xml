@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zeroDP"
+        android:layout_weight="@integer/weight15"
+        android:background="@drawable/theme_black"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_name"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/name_org"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_name"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_adress"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/ur_adres"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_ur_adres"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_fakt_adress"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/fact_adres"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_fakt_adres"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_tel"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight4"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/tel_faks"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+
+                        android:id="@+id/e_t_input_tel"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:phoneNumber="true"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_faks"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:phoneNumber="true"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_innkpp"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight4"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/inn_kpp"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_inn"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:numeric="integer"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_kpp"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:numeric="integer"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_rs"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/r_schet"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_rs"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:numeric="integer"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_bank"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/bank_org"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_bank"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_ks"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/kor_schet"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+
+                        android:id="@+id/e_t_input_ks"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:numeric="integer"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_bik"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/bik"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_bik"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:numeric="integer"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_okved"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/okved"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_okved"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:numeric="integer"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_okpo"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/okpo"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_okpo"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:numeric="integer"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_ogrn"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/ogrn"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_ogrn"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:numeric="integer"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_okato"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/okato"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_okato"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:numeric="integer"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_rukov"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight4"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/rukovod_org"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_doljnost"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:hint="@string/doljnost"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_fio"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:hint="@string/fio"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t_v_ur_email"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/theme_black"
+                        android:text="@string/email"
+                        android:textColor="@color/red_text" />
+
+                    <EditText
+                        android:id="@+id/e_t_input_email"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight5"
+                        android:background="@drawable/theme_black"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zeroDP"
+                    android:layout_weight="@integer/weight2"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bt_safe_add_new_client"
+                        android:layout_width="@dimen/zeroDP"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/twoDP"
+                        android:layout_weight="@integer/weight2"
+                        android:background="@drawable/button_black"
+                        android:onClick="saveClient"
+                        android:text="@string/save"
+                        android:textColor="@color/red_text" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
